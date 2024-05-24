@@ -1,0 +1,11 @@
+{
+    "url": "http://127.0.0.1:8000/server/incoming_data",
+    "method": "POST",
+    "headers": {
+        "Content-Type": "application/json",
+        "CL-X-TOKEN": "your_secret_token"
+    },
+    "body": {
+        "key": "value"
+    }
+}

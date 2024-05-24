@@ -1,0 +1,13 @@
+{
+    "url": "http://127.0.0.1:8000/api/webhooks/",
+    "method": "POST",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "body": {
+        "account": 1,
+        "event": "data_received",
+        "destination": 1,
+        "enabled": true
+    }
+}

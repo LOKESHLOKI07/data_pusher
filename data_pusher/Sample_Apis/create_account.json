@@ -1,0 +1,11 @@
+{
+    "url": "http://127.0.0.1:8000/api/accounts/",
+    "method": "POST",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "body": {
+        "email": "example@example.com",
+        "account_name": "Example Account"
+    }
+}
